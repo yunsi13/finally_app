@@ -14,9 +14,11 @@ class WhyFish extends StatelessWidget {
       body: SingleChildScrollView(
         child: Column(
           children: [
-            Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 24.0),
-              child: Image.asset('assets/whyfish.jpg', width: 200,),
+            Container(
+              child: Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 24.0),
+                child: Image.asset('assets/whyfish.jpg', width: 200,),
+              ),
             ),
             SizedBox(height: 16,),
             Center(
@@ -33,6 +35,8 @@ class WhyFish extends StatelessWidget {
               ),),
             ),
             SizedBox(height: 20,),
+
+
           ],
         ),
       ),

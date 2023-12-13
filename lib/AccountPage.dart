@@ -24,7 +24,37 @@ class AcountPage extends StatelessWidget {
               ),),
             ),
             SizedBox(height: 20,),
-            Text(''),
+            Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: TextField(decoration: InputDecoration(
+                labelText: '아이디',
+              ),),
+            ),
+            Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: TextField(decoration: InputDecoration(
+                labelText: '비밀번호',
+              ),),
+            ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.end,
+              children: [
+                Padding(
+                  padding: const EdgeInsets.all(16.0),
+                  child: TextButton(
+                    style: ButtonStyle(
+                      backgroundColor: MaterialStateProperty.all(Colors.blue[400]),
+                      foregroundColor: MaterialStateProperty.all(Colors.white),
+                      textStyle: MaterialStateProperty.all(TextStyle(
+                          fontSize: 20,
+                          fontWeight: FontWeight.bold),),
+                    ),
+                    onPressed: (){},
+                    child: Text('로그인'),
+                  ),
+                ),
+              ],
+            ),
           ],
         ),
       ),
