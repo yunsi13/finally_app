@@ -13,7 +13,7 @@ class AcountPage extends StatelessWidget {
           children: [
             Padding(
               padding: EdgeInsets.symmetric(horizontal: 24.0),
-              child: Text('반값습니다.', style: TextStyle(
+              child: Text('반갑습니다.', style: TextStyle(
                 fontSize: 20, fontWeight: FontWeight.bold, color: Colors.black54,
               ),),
             ),

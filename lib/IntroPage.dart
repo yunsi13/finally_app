@@ -34,7 +34,10 @@ class IntroPage extends StatelessWidget {
                 borderRadius: BorderRadius.circular(12),
               ),
               padding: const EdgeInsets.all(24),
-              child: const Text("시작하기", style: TextStyle(color: Colors.white, fontSize: 20),),
+              child: const Text("시작하기", style: TextStyle(
+                  color: Colors.white,
+                  fontSize: 20,
+                  fontWeight: FontWeight.bold),),
             ),
           ),
         ],
